@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<aside class="navigation">
+	<div class="logo">
+		<img src="image/logo.png" alt="" />
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="service.html">Service</a></li>
+			<li><a href="video.html">Videos</a></li>
+			<li><a href="#">Team</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+</aside>
+<div class="main-section">
+	<!-- Start Slider -->
+	<section class="container-fluid pl-0 pr-0">
+		<div class="top-slider">
+			<div id="slider" class="owl-carousel owl-theme">
+				<div class="item">
+					<img src="image/slider3.jpg" alt="" />
+					<div class="slider-txt">
+						<h1>React JS Routes explained</h1>
+						<p>React JS builds one page applications. I have explained about this in my React for beginners article. You need to use React Router when you want to have multiple "pages" or "views" for your application.</p>
+						<button>Read More</button>
+					</div>
+				</div>
+				<div class="item">
+					<img src="image/slider2.jpg" alt="" />
+					<div class="slider-txt">
+						<h1>Create components for routes</h1>
+						<p>React JS builds one page applications. I have explained about this in my React for beginners article. You need to use React Router when you want to have multiple "pages" or "views" for your application.</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="image/slider1.jpg" alt="" />
+					<div class="slider-txt">
+						<h1>How to use BrowserRouter</h1>
+						<p>React JS builds one page applications. I have explained about this in my React for beginners article. You need to use React Router when you want to have multiple "pages" or "views" for your application.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Slider -->
+	
+	<!-- Start Service -->
+	<section class="service-wrap">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="s-box">
+					<div class="s-icons">
+						<i class="fas fa-cogs"></i>
+					</div>
+					<h3>How to use BrowserRouter</h3>
+					<p>React JS builds one page applications. I have explained about this in my React</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="s-box">
+					<div class="s-icons">
+						<i class="fas fa-paper-plane"></i>
+					</div>
+					<h3>How to use BrowserRouter</h3>
+					<p>React JS builds one page applications. I have explained about this in my React</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="s-box">
+					<div class="s-icons">
+						<i class="fas fa-rocket"></i>
+					</div>
+					<h3>How to use BrowserRouter</h3>
+					<p>React JS builds one page applications. I have explained about this in my React</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="s-box">
+					<div class="s-icons">
+						<i class="fas fa-rocket"></i>
+					</div>
+					<h3>How to use BrowserRouter</h3>
+					<p>React JS builds one page applications. I have explained about this in my React</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<!-- End Service -->
+	
+	
+	<!-- Start Service -->
+<section class="testi-wrap">
+	<div class="overlay"></div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="testimonial">
+					<div id="slider2" class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="slider-cotain">
+								<div class="dp">
+									<img src="image/dp.jpg" />
+								</div>
+								<h2 class="name">Simran</h2>
+								<p class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="slider-cotain">
+								<div class="dp">
+									<img src="image/dp.jpg" />
+								</div>
+								<h2 class="name">Simran</h2>
+								<p class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="slider-cotain">
+								<div class="dp">
+									<img src="image/dp.jpg" />
+								</div>
+								<h2 class="name">Simran</h2>
+								<p class="comment">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+	<!-- End Service -->
+	
+	
+</div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+	$(document).ready(function(){
+		$('#slider').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		});
+		$('#slider2').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			dots:false,
+			rewind:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+			   },
+				1000:{
+					items:1
+				}
+			}
+		})
+	});
+	
+	
+  </script>
+</body>
+</html>

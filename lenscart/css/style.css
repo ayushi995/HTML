@@ -1,0 +1,45 @@
+.main-one div ul li a{border-right:1px solid #ccc;font-size:1vw; color:#3e3e3ead; padding:0rem 0.4rem}
+.main-one div ul li{margin:10px 0px}
+.main-one div ul li:nth-child(10){border:0;}
+
+
+.main-two{width:94%; margin:5px 0px 20px 5%}
+.main-glasses{width:14.5%; margin-right:1.7%; float:left;}
+.image img{width:78%; padding-top:15px; max-width:100%;}
+.title{background: #fafafa; padding: 10px 0 15px 0;border-radius: 10px; font-size:14px; font-weight:bold}
+.image{background: #fafafa; text-align:center}
+
+
+
+.big-image img{width:100%}
+
+
+
+.section-four{padding-bottom:15px;}
+.box1{font-family:FuturaStd-Heavy; font-size:24px; width:32%;}
+.box2{text-align:left; width:48%; font-size:19px;}
+.box3{text-align:right; font-size:18px; width:20%; font-weight:700 }
+.main-four{width:90%; display:flex;border-radius: 10px; background: #fff5e4; padding: 12px 46px; margin-left:auto; margin-right:auto; margin-top:15px}
+.box3 a{color:#02bdd6; text-decoration:none }
+
+
+.style{font-size:30px; margin:30px 0px 20px 0px; font-weight:600; text-align:center; }
+.bigimagea img{width:100%; margin-bottom:20px; margin-top:20px;}
+.bigimagea{text-decoration:none; color:#329c92; cursor:pointer;}
+
+
+
+
+.section-six{padding-bottom:20px;}
+.box6{width:50%; float:left; padding-top:15px; }
+.box6 img{width:100%;}
+.six{margin-right:13px; width:calc(50% - 13px)}
+
+
+
+
+.section-seven{padding:20px 0px}
+.main-seven{width:96%; margin:auto}
+.box7{width:50%; float:left;}
+.box7 img{width:100%;}
+.seven{margin-left:13px; width:calc(50% - 13px)}

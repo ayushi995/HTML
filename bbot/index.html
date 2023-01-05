@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>welcome</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/all.min.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="register">
+<div id="error"></div>
+<div>
+  <div class="form-group">
+    <label for="email">Name</label>
+    <input type="text" class="form-control" placeholder="Enter Name" id="name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" placeholder="Enter Email" id="email">
+  </div>
+  <div class="form-group">
+    <label for="email">Mobile</label>
+    <input type="number" class="form-control" placeholder="Enter Mobile" id="mobile">
+  </div>
+  <div class="form-group">
+    <label for="email">Password</label>
+    <input type="password" class="form-control" placeholder="Enter Password" id="password">
+  </div>
+  <div class="form-group">
+    <label for="email">City</label>
+    <input type="text" class="form-control" placeholder="Enter City" id="city">
+  </div>
+  <div class="form-group">
+    <label for="email">State</label>
+    <input type="text" class="form-control" placeholder="Enter State" id="State">
+  </div>
+  <div class="form-group">
+    <label for="email">Address</label>
+    <input type="text" class="form-control" placeholder="Enter Address" id="address">
+  </div>
+  <button type="submit" id="register" class="btn btn-primary">Submit</button>
+</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	$("#register").click(function(){
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var mobile = $("#mobile").val();
+		var pass = $("#password").val();
+		var city = $("#city").val();
+		var state = $("#State").val();
+		var address = $("#address").val();
+		
+		if(name == ""){
+			$("#error").html("please enter your name");
+			return false;
+		} 
+		else if(email == ""){
+			$("#error").html("please enter your email");
+			return false;
+		}
+		else if(mobile == ""){
+			$("#error").html("please enter your mobile");
+			return false;
+		}
+		else if(pass == ""){
+			$("#error").html("please enter your password");
+			return false;
+		}
+		else if(city == ""){
+			$("#error").html("please enter your city");
+			return false;
+		}
+		else if(state == ""){
+			$("#error").html("please enter your state");
+			return false;
+		}
+		else if(address == ""){
+			$("#error").html("please enter your address");
+			return false;
+		}
+		else{
+			$.ajax({
+				type: "POST",
+				url: 'ajax/user.php',
+				data: {f_name: name, f_email: email, f_mobile: mobile, f_pass: pass, f_city: city, f_state: state, f_address: address},
+				success: function(response)
+				{
+					console.log(response);
+					if(response == 1){
+						location.reload();
+					}
+				}
+		   });
+		}
+	});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

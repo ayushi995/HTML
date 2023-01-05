@@ -1,0 +1,77 @@
+body{padding:0; margin:0; font-family:arial;}
+/*---login-left-section--*/
+.main-one{display:flex; flex-wrap:wrap; width:100%; max-width:800px; margin:auto; padding-top:30px}
+.box{flex:1}
+.box-one{
+	background-image:url('../asset/cycle1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:90px 50px;
+	position:relative;
+	color:#fff;
+}
+.box-one h2{font-size:60px; font-weight:700;margin-bottom:0; color:#fff;}
+.world{margin-top:-15px}
+.box-one h2 span{font-size:25px; margin-left:-12px;position:relative; top:2px }
+.box-one p{font-size:13px;padding-top:3px}
+.box-one h3{font-size:13px; font-weight:600; padding-bottom:13px}
+.box-one a{padding:10px 35px;font-size:14px; color:#fff; border-radius:20px; text-decoration:none;}
+.facebook{background-color:#2a68bb; margin-right:13px}
+.twitter{background-color:#00c0ef}
+.overlay{position:absolute; left:0; top:0; 
+	width:100%;
+	height:100%;
+	background-color:#292ebfa6;}
+.testomonial{position:relative; z-index:99;}
+
+/*---login-right-section--*/
+.box-two{background-color:#fff; box-shadow:0px 0px 11px 2px #bdb9b9; padding:0px 50px	}
+.box-two h2{font-size:30px; font-weight:600; color:#000;}
+.box-two p{font-size:13px; color:#abaeb1;}
+.input-main{border:none;}
+.input-field{border:none; 
+border-bottom:2px solid #aba7a7;
+ width:100%;
+ margin:10px 0px;
+ font-size:13px; 
+padding:5px 0px}
+.check-box{margin:10px 0px}
+.check-field{margin-right:10px;}
+.check-box span{font-size:13px; color:#5a5b5d; top:-1px; position:relative}
+.box-two h4{font-size:13px; display:inline-block; color:#abaeb1; position:relative; left:70px}
+.login-btn a{padding:10px 35px;font-size:14px;
+margin-top:10px; color:#fff; 
+border-radius:20px; background-color:#82d444; text-decoration:none}
+.login-btn{text-align:right;padding-top:20px}
+.for-login{padding-top:10px!important; margin-right:-45px}
+.login-p{padding:90px 0px;}
+
+/*---register-left-section---*/
+.main-two{display:flex; flex-wrap:wrap; width:100%; max-width:950px; margin:auto; padding-top:30px}
+.box-one-reg{
+	background-image:url('../asset/register.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.two-btn{text-align:right; padding-top:25px}
+.two-btn a{border:1px solid #c1bbbb;padding:6px 17px; color:#000; text-decoration:none;}
+.two-btn a:hover{background-color:#005ccb; color:#fff}
+.manage-btn{margin-right:-5pxpx}
+.box-two-reg{padding:0px 40px; box-shadow:0px 0px 11px 2px #bdb9b9}
+.main-text{padding-top:100px; padding-bottom:100px }
+.main-text h2{font-size:35px;font-weight:600; color:#4a4848}
+.reg-input-main input{width:100%;}
+.reg-email{padding:20px 0px}
+.main-btn button{ background-color:#005ccb; 
+color:#fff; 
+text-align:center; 
+width:90%; 
+height:60px;
+border:none; 
+cursor:pointer;
+ font-size:20px}
+.main-btn{padding-top:25px;text-align:center;padding-bottom:30px}
+.check-box h4{font-size:13px; display:inline-block; color:#abaeb1; position:relative; left:88px}
+.right{text-align:right;}
+.h4-one{font-size:13px; font-weight:600; color:#615f5f;}
+.h4-two{font-size:13px; font-weight:600; color:#908c8c;}

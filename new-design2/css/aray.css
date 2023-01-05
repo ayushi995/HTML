@@ -1,0 +1,8 @@
+body{padding:0; margin:0; font-family:arial;}
+.d_flex{display:flex}
+.box{display:flex;width:50%; flex-wrap:wrap;}
+.box img{width:100%;}
+.inner-box{width:50%;}
+
+
+

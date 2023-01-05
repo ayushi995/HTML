@@ -1,0 +1,94 @@
+body{padding:0; margin:0; font-family:arial;}
+
+
+.section-title{ text-align:center;
+text-transform:uppercase;
+}
+.section-title h2{
+	font-size:22px; 
+	font-weight:300;
+	color:#555;
+}
+/*  section one */
+.banner{
+background-image:url(../asset/banner.jpg); 
+background-repeat:no-repeat; 
+background-size:cover; 
+padding: 100px 0;
+text-align:center;
+}
+
+.hr{ width:60px;}
+.bannercontent{ color:#fff;}
+.bannercontent h1{ 
+margin-top:0;
+margin-bottom: 15px; 
+font-size:50px;
+font-weight:600;
+text-transform:uppercase;
+}
+
+.btn-button{ 
+width:120px; 
+height:40px;
+cursor:pointer;
+
+
+}
+	/*  section two */
+.section-two{background-color:#eee;}
+.nav{ padding-left:0; margin:0; text-align:center;}
+.nav li{ display:inline-block;}
+.nav li a{
+display:block;
+padding:15px 65px; 
+text-decoration:none;
+text-transform:uppercase;
+font-size:12px;
+font-weight:600;
+color:#666;
+}
+.nav li a:hover{background-color:#f98f0b; color:#fff;}
+
+
+
+/*  section Third */
+.section-third{padding:90px 0;}
+.about-text{ width:600px; margin:auto; text-align:center;}
+.about-text img{ width:100px; border-radius:50%;}
+.about-text p{ font-size:14px; color:#777; line-height:23px;}
+
+
+/*  section Fourth */
+.section-four{ background-color:#eee; padding:90px 0;}
+.portfolio{ width:850px; margin:auto;}
+.box{width:25%; float:left; box-sizing:border-box; padding:10px;}
+.box img{width:100%;}
+
+/*  section five */
+.section-five{padding:90px 0;}
+.contact-form{width:700px; margin:auto;}
+.float-div{padding:10px; width:50%; float:left; box-sizing:border-box;}
+.form-control{width:100%; height:35px; border:1px solid #ccc; padding:0 10px;}
+
+.msg{ padding:10px;}
+.msg textarea{ height:100px; padding-top:10px;}
+.form-btn{text-align:center;}
+
+
+.about-third{padding:90px 0;}
+.about-txt{width:70%; margin:auto; height:350px; border:1px solid #ccc; padding:15px; overflow:auto;}
+.about-txt ul li:nth-child(even){ background-color:#ccc;}
+.about-txt ul li:nth-child(odd){ background-color:#eee;}
+
+.advert{width:200px;position:fixed;top:20px; right:20px; z-index:1; background-color:#fff; padding:20px;}
+.advert img{width:100%;}
+
+.after-class:before{ content:'"'; font-size:40px;}
+
+
+.icons{padding:20px; text-align:center;}
+.icons .fab{font-size:50px; color:#5806c5; margin-left:20px;}
+.icons .fab:nth-child(1){margin-left:0;}
+
+
